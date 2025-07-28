@@ -1,0 +1,60 @@
+/* StepsSection.css */
+
+.steps-section {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #f5faff;
+}
+
+.steps-section h2 {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 50px;
+}
+
+.steps-section h2 span {
+  color: #5f5dff;
+  font-weight: 600;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.card {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  width: 280px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  text-align: left;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 40px;
+  height: 40px;
+  background-color: #a96dff;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.card h3 {
+  margin-top: 15px;
+  font-size: 18px;
+  color: #000;
+}
+
+.card p {
+  margin-top: 8px;
+  color: #777;
+  font-size: 14px;
+  line-height: 1.4;
+}
